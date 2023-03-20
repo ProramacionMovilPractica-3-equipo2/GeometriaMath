@@ -41,4 +41,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/title_text_view" />
 
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/menu_ppal_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:clickable="true"
+        app:backgroundTint="#00BCD4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="?attr/homeAsUpIndicator" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
