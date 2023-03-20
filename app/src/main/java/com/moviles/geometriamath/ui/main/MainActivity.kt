@@ -31,19 +31,19 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemClickListener {
     override fun onItemClick(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
         val item = parent?.getItemAtPosition(position).toString()
         Toast.makeText(this@MainActivity, item+" "+position, Toast.LENGTH_SHORT).show()
-        when(position){
-            0 -> TODO("areaCírculo")
-            1 -> TODO("Perímetro Círculo")
-            2 -> TODO("Área Cuadro")
-            3 -> TODO("Perímetro Cuadro")
-            4 -> TODO("Área Triángulo")
-            5 -> TODO("Perímetro Triángulo")
-            6 -> TODO("Área Rectángulo")
-            7 -> TODO("Perímetro Rectángulo")
-            8 -> TODO("Área de un Pentágono")
-            9 -> TODO("Perímetro de un Pentágono")
-            10 -> TODO("Área de un Hexágono")
-            11 -> TODO("Perímetro de un Hexágono")
-        }
+//        when(position){
+//            0 -> TODO("areaCírculo")
+//            1 -> TODO("Perímetro Círculo")
+//            2 -> TODO("Área Cuadro")
+//            3 -> TODO("Perímetro Cuadro")
+//            4 -> TODO("Área Triángulo")
+//            5 -> TODO("Perímetro Triángulo")
+//            6 -> TODO("Área Rectángulo")
+//            7 -> TODO("Perímetro Rectángulo")
+//            8 -> TODO("Área de un Pentágono")
+//            9 -> TODO("Perímetro de un Pentágono")
+//            10 -> TODO("Área de un Hexágono")
+//            11 -> TODO("Perímetro de un Hexágono")
+//        }
     }
 }
