@@ -1,3 +1,20 @@
 <resources>
-    <string name="app_name">GeometriaMath</string>
+    <string name="app_name">Geometry Math</string>
+    <string name="team">By team 2</string>
+    <string name="selector_menu">Seleccione el calculo</string>
+
+    <string-array name="actividades">
+        <item>Área Círculo</item>
+        <item>Perímetro Círculo</item>
+        <item>Área Cuadro</item>
+        <item>Perímetro Cuadro</item>
+        <item>Área Triángulo</item>
+        <item>Perímetro Triángulo</item>
+        <item>Área Rectángulo</item>
+        <item>Perímetro Rectángulo</item>
+        <item>Área de un Pentágono</item>
+        <item>Perímetro de un Pentágono</item>
+        <item>Área de un Hexágono</item>
+        <item>Perímetro de un Hexágono</item>
+    </string-array>
 </resources>
