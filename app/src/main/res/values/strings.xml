@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">GeometriaMath</string>
+    <string name="app_name">Geometry Math</string>
+    <string name="team">By team 2</string>
 </resources>
