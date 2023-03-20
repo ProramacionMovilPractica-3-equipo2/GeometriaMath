@@ -1,5 +1,6 @@
 package com.moviles.geometriamath.ui.main
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -45,5 +46,8 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemClickListener {
 //            10 -> TODO("Área de un Hexágono")
 //            11 -> TODO("Perímetro de un Hexágono")
 //        }
+        when(position){
+            5 -> startActivity(Intent(this@MainActivity, PerimetroTrianguloActivity::class.java))
+        }
     }
 }

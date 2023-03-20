@@ -17,4 +17,7 @@
         <item>Área de un Hexágono</item>
         <item>Perímetro de un Hexágono</item>
     </string-array>
+
+    <string name="daniel_perimetrotriangulo">Perimetro del triangulo</string>
+
 </resources>
