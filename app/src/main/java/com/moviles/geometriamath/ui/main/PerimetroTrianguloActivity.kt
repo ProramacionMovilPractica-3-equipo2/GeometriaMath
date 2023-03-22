@@ -21,10 +21,13 @@ class PerimetroTrianguloActivity : AppCompatActivity() {
 
         //Configuracion del LiveData
         val resultadoObserver = Observer<Float>{resultado ->
-            perimetroTrianguloBinding.tvResultado.text = "El perímetro del triángulo es: $resultado"
+            perimetroTrianguloBinding.tvResultado.text = buildString {
+        append(getString(R.string.perimetroDaniel))
+        append(resultado)
+    }
         }
         val errorObserver = Observer<String>{error ->
-            perimetroTrianguloBinding.tvResultado.text = "$error"
+            perimetroTrianguloBinding.tvResultado.text = error
         }
 
         perimetroTrianguloViewModel.resultado.observe(this, resultadoObserver)

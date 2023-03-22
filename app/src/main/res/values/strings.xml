@@ -19,5 +19,6 @@
     </string-array>
 
     <string name="daniel_perimetrotriangulo">Perimetro del triangulo</string>
+    <string name="perimetroDaniel">\"El perímetro del triángulo es: \"</string>
 
 </resources>
