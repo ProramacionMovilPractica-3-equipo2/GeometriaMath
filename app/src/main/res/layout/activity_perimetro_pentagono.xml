@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.PerimetroPentagonoActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/perimetro_pentagono"
+        tools:ignore="ContentDescription" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="445dp"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <TextView
+        android:id="@+id/sideA_textView"
+        android:layout_width="@dimen/pPentagono_general_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/pPentagono_margin_top_upperInfoTextViews"
+        android:text="@string/pPentagono_sizeA"
+        android:textStyle="bold"
+        android:textColor="@color/ic_launcher_background"
+        android:textAlignment="center"
+        android:textSize="@dimen/pPentagono_general_info_text"
+        app:layout_constraintEnd_toStartOf="@+id/sideB_textView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/sideB_textView"
+        android:layout_width="@dimen/pPentagono_general_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/pPentagono_margin_top_upperInfoTextViews"
+        android:text="@string/pPentagono_sizeB"
+        android:textStyle="bold"
+        android:textColor="@color/ic_launcher_background"
+        android:textAlignment="center"
+        android:textSize="@dimen/pPentagono_general_info_text"
+        app:layout_constraintEnd_toStartOf="@+id/sideC_textView"
+        app:layout_constraintStart_toEndOf="@+id/sideA_textView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/sideC_textView"
+        android:layout_width="@dimen/pPentagono_general_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/pPentagono_margin_top_upperInfoTextViews"
+        android:text="@string/pPentagono_sizeC"
+        android:textStyle="bold"
+        android:textColor="@color/ic_launcher_background"
+        android:textAlignment="center"
+        android:textSize="@dimen/pPentagono_general_info_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/sideB_textView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/sideD_textView"
+        android:layout_width="@dimen/pPentagono_general_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/pPentagono_margin_top_middleInfoTextViews"
+        android:text="@string/pPentagono_sizeD"
+        android:textStyle="bold"
+        android:textColor="@color/ic_launcher_background"
+        android:textAlignment="center"
+        android:textSize="@dimen/pPentagono_general_info_text"
+        app:layout_constraintEnd_toStartOf="@+id/sideE_textView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputSideA_editText" />
+
+    <TextView
+        android:id="@+id/sideE_textView"
+        android:layout_width="@dimen/pPentagono_general_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/pPentagono_margin_top_middleInfoTextViews"
+        android:text="@string/pPentagono_sizeE"
+        android:textStyle="bold"
+        android:textColor="@color/ic_launcher_background"
+        android:textAlignment="center"
+        android:textSize="@dimen/pPentagono_general_info_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputSideB_editText" />
+
+    <TextView
+        android:id="@+id/resultInfo_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/pPentagono_margin_top_bottomInfoTextViews"
+        android:text="@string/pPentagono_resultInfo"
+        android:textAlignment="center"
+        android:textColor="@color/ic_launcher_background"
+        android:textSize="@dimen/pPentagono_general_info_text"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputSideE_editText" />
+
+    <TextView
+        android:id="@+id/result_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="@dimen/pPentagono_result_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resultInfo_textView" />
+
+    <TextView
+        android:id="@+id/infoTeam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/pPentagono_margin_bottom_teamInfo"
+        android:text="@string/team"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/operate_button"
+        android:layout_width="@dimen/pPentagono_general_width"
+        android:layout_height="@dimen/pPentagono_height_input_button"
+        android:text="@string/pPentagono_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/inputSideE_editText"
+        app:layout_constraintTop_toTopOf="@+id/inputSideE_editText"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/inputSideA_editText"
+        android:layout_width="@dimen/pPentagono_general_width"
+        android:layout_height="@dimen/pPentagono_general_height_input"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:maxLength="@integer/pPentagono_max_number_digits_input"
+        android:textColor="@color/teal_700"
+        app:layout_constraintEnd_toStartOf="@+id/inputSideB_editText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sideA_textView"
+        tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/inputSideB_editText"
+        android:layout_width="@dimen/pPentagono_general_width"
+        android:layout_height="@dimen/pPentagono_general_height_input"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:maxLength="@integer/pPentagono_max_number_digits_input"
+        android:textColor="@color/teal_700"
+        app:layout_constraintEnd_toStartOf="@+id/inputSideC_editText"
+        app:layout_constraintStart_toEndOf="@+id/inputSideA_editText"
+        app:layout_constraintTop_toBottomOf="@+id/sideB_textView"
+        tools:ignore="LabelFor,SpeakableTextPresentCheck"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/inputSideC_editText"
+        android:layout_width="@dimen/pPentagono_general_width"
+        android:layout_height="@dimen/pPentagono_general_height_input"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:maxLength="@integer/pPentagono_max_number_digits_input"
+        android:textColor="@color/teal_700"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/inputSideB_editText"
+        app:layout_constraintTop_toBottomOf="@+id/sideC_textView"
+        tools:ignore="LabelFor,SpeakableTextPresentCheck"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/inputSideD_editText"
+        android:layout_width="@dimen/pPentagono_general_width"
+        android:layout_height="@dimen/pPentagono_general_height_input"
+        android:layout_marginStart="1dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:maxLength="@integer/pPentagono_max_number_digits_input"
+        android:textColor="@color/teal_700"
+        app:layout_constraintEnd_toStartOf="@+id/inputSideE_editText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sideD_textView"
+        tools:ignore="LabelFor,SpeakableTextPresentCheck"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/inputSideE_editText"
+        android:layout_width="@dimen/pPentagono_general_width"
+        android:layout_height="@dimen/pPentagono_general_height_input"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:maxLength="@integer/pPentagono_max_number_digits_input"
+        android:textColor="@color/teal_700"
+        app:layout_constraintEnd_toStartOf="@+id/operate_button"
+        app:layout_constraintStart_toEndOf="@+id/inputSideD_editText"
+        app:layout_constraintTop_toBottomOf="@+id/sideE_textView"
+        tools:ignore="LabelFor,SpeakableTextPresentCheck"
+        android:importantForAutofill="no" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

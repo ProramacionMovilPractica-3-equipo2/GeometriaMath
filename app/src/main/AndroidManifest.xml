@@ -12,6 +12,9 @@
         android:theme="@style/Theme.GeometriaMath"
         tools:targetApi="31">
         <activity
+            android:name=".ui.main.PerimetroPentagonoActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.main.PerimetroTrianguloActivity"
             android:exported="false" />
         <activity
