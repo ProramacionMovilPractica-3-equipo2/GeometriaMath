@@ -21,4 +21,16 @@
     <string name="daniel_perimetrotriangulo">Perimetro del triangulo</string>
     <string name="perimetroDaniel">\"El perímetro del triángulo es: \"</string>
 
+    <string name="pPentagono_sizeA">Lado A</string>
+    <string name="pPentagono_sizeB">Lado B</string>
+    <string name="pPentagono_sizeC">Lado C</string>
+    <string name="pPentagono_sizeD">Lado D</string>
+    <string name="pPentagono_sizeE">Lado E</string>
+    <string name="pPentagono_button">OPERAR</string>
+    <string name="pPentagono_resultInfo">RESULTADO</string>
+    <string name="pPentagono_error_sideA_empty">El lado A está vacio</string>
+    <string name="pPentagono_error_sideB_empty">El lado B está vacio</string>
+    <string name="pPentagono_error_sideC_empty">El lado C está vacio</string>
+    <string name="pPentagono_error_sideD_empty">El lado D está vacio</string>
+    <string name="pPentagono_error_sideE_empty">El lado E está vacio</string>
 </resources>
