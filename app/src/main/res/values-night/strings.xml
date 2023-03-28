@@ -1,25 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Geometry Math</string>
-    <string name="team">By team 2</string>
-    <string name="selector_menu">Seleccione el calculo</string>
-
-    <string-array name="actividades">
-        <item>Área Círculo</item>
-        <item>Perímetro Círculo</item>
-        <item>Área Cuadro</item>
-        <item>Perímetro Cuadro</item>
-        <item>Área Triángulo</item>
-        <item>Perímetro Triángulo</item>
-        <item>Área Rectángulo</item>
-        <item>Perímetro Rectángulo</item>
-        <item>Área de un Pentágono</item>
-        <item>Perímetro de un Pentágono</item>
-        <item>Área de un Hexágono</item>
-        <item>Perímetro de un Hexágono</item>
-    </string-array>
-
-    <string name="daniel_perimetrotriangulo">Perimetro del triangulo</string>
-    <string name="perimetroDaniel">\"El perímetro del triángulo es: \"</string>
     <string name="activity_perimetro_hexagono_text_view_tipo_hexagono">Tu hexágono es:</string>
     <string name="activity_perimetro_hexagono_radio_button_regular">Regular</string>
     <string name="activity_perimetro_hexagono_radio_button_irregular">Irregular</string>
@@ -31,5 +11,4 @@
     <string name="activity_perimetro_hexagono_edt_hint_lado6">Lado6</string>
     <string name="activity_perimetro_hexagono_button_calcular">Calcular</string>
     <string name="activity_perimetro_hexagono_btn_home">home</string>
-
 </resources>
