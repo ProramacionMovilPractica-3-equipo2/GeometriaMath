@@ -23,13 +23,25 @@ class PentagonAreaViewModel : ViewModel() {
             return
 
         }
+        if (sideA == "." || sideA == "," ) {
+            errorMessage.value = "El campo Lado A tiene ingresado un valor no númerico "
+            return
+        }
         if (sideB.isBlank()) {
             errorMessage.value = "El campo Lado B no se llenó"
             return
-
         }
+        if (sideB == "." || sideB == "," ) {
+            errorMessage.value = "El campo Lado B tiene ingresado unvalor no númerico "
+            return
+        }
+
         if (sideC.isBlank()) {
             errorMessage.value = "El campo Lado C no se llenó"
+            return
+        }
+        if (sideC == "." || sideC == "," ) {
+            errorMessage.value = "El campo Lado C tiene ingresado un valor no númerico "
             return
         }
         if (sideD.isBlank()) {
@@ -37,12 +49,24 @@ class PentagonAreaViewModel : ViewModel() {
             return
 
         }
+        if (sideD == "." || sideD == "," ) {
+            errorMessage.value = "El campo Lado D tiene ingresado un valor no númerico "
+            return
+        }
         if (sideE.isBlank()) {
             errorMessage.value = "El campo Lado E no se llenó"
             return
         }
+        if (sideE == "." || sideE == "," ) {
+            errorMessage.value = "El campo Lado E tiene ingresado un valor no númerico "
+            return
+        }
         if (apothem.isBlank()) {
             errorMessage.value = "El campo Apotema no se llenó"
+            return
+        }
+        if (apothem == "." || apothem == "," ) {
+            errorMessage.value = "El campo apotema tiene ingresado un valor no númerico "
             return
         }
 
@@ -63,7 +87,7 @@ class PentagonAreaViewModel : ViewModel() {
         } catch (e: NumberFormatException) {
             // Si ocurre una excepción, se muestra un mensaje de error y se limpia el resultado
             pentagonArea.value = ""
-            errorMessage.value = "Se ingresó un valor no numérico"
+            errorMessage.value = "Se ingresaron valores no numericos"
         }
     }
 }
