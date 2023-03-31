@@ -33,4 +33,16 @@
     <string name="pPentagono_error_sideC_empty">El lado C está vacio</string>
     <string name="pPentagono_error_sideD_empty">El lado D está vacio</string>
     <string name="pPentagono_error_sideE_empty">El lado E está vacio</string>
+
+
+    //Para area de pentagono
+    <string name="Pentagono_sizeA">Lado A</string>
+    <string name="Pentagono_sizeB">Lado B</string>
+    <string name="Pentagono_sizeC">Lado C</string>
+    <string name="Pentagono_sizeD">Lado D</string>
+    <string name="Pentagono_sizeE">Lado E</string>
+    <string name="Pentagono_apothem">Apotema L</string>
+    <string name="Calculate_area">Calcular área</string>
+    <string name="Pentagono_resultInfo">RESULTADO</string>
+
 </resources>
