@@ -16,6 +16,15 @@
             android:configChanges="orientation|screenSize"
             android:exported="false" />
         <activity
+            android:name=".ui.main.PentagonAreaViewModel"
+            android:exported="false" />
+        <activity
+            android:name=".ui.main.PentagonAreaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.main.PerimetroPentagonoActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.main.PerimetroTrianguloActivity"
             android:exported="false" />
         <activity

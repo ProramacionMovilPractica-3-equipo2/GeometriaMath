@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="pPentagono_general_width">110dp</dimen>
+    <dimen name="pPentagono_general_height_input">50dp</dimen>
+    <dimen name="pPentagono_height_input_button">50dp</dimen>
+    <dimen name="pPentagono_result_height">50dp</dimen>
+</resources>

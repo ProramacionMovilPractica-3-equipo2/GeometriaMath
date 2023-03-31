@@ -49,7 +49,9 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemClickListener {
 //        }
         when(position){
             5 -> startActivity(Intent(this@MainActivity, PerimetroTrianguloActivity::class.java))
-	        11 -> startActivity(Intent(this@MainActivity, PerimetroHexagonoActivity::class.java))
+            8 -> startActivity(Intent(this@MainActivity, PentagonAreaActivity::class.java))
+            9 -> startActivity(Intent(this@MainActivity, PerimetroPentagonoActivity::class.java))
+            11 -> startActivity(Intent(this@MainActivity, PerimetroHexagonoActivity::class.java))
         }
     }
 }
