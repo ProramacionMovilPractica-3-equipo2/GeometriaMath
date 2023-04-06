@@ -56,4 +56,10 @@
     <string name="Calculate_area">Calcular área</string>
     <string name="Pentagono_resultInfo">RESULTADO</string>
 
+
+    //Perimetro del rectangulo
+    <string name="lado_A">Lado A</string>
+    <string name="lado_B">Lado B</string>
+    <string name="res_per_rec">\"El perímetro del triángulo es: \"</string>
+    <string name="perimetro_rectangulo">Perímetro de un Rectángulo</string>
 </resources>
