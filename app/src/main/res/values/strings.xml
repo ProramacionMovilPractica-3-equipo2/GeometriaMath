@@ -24,5 +24,6 @@
     <string name="baseTriangulo">Base</string>
     <string name="alturaTriangulo">Altura</string>
     <string name="botonCalcular">Calcular</string>
+    <string name="Area_Triangulo">"Área del Triángulo: "</string>
 
 </resources>

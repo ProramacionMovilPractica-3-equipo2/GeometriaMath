@@ -21,7 +21,7 @@ class AreaTrianguloActivity : AppCompatActivity() {
         //Configuracion del LiveData
         val areaObserver = Observer<Float>{area ->
             areaTrianguloBinding.tvArea.text = buildString {
-                append(getString(R.string.AreaTriangulo))
+                append(getString(R.string.Area_Triangulo))
                 append(area)
             }
         }
