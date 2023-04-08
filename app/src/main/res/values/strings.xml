@@ -20,5 +20,9 @@
 
     <string name="daniel_perimetrotriangulo">Perimetro del triangulo</string>
     <string name="perimetroDaniel">\"El perímetro del triángulo es: \"</string>
+    <string name="AreaTriangulo">Área del Triángulo</string>
+    <string name="baseTriangulo">Base</string>
+    <string name="alturaTriangulo">Altura</string>
+    <string name="botonCalcular">Calcular</string>
 
 </resources>

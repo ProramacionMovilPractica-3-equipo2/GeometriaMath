@@ -47,6 +47,7 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemClickListener {
 //            11 -> TODO("Perímetro de un Hexágono")
 //        }
         when(position){
+            4 -> startActivity(Intent(this@MainActivity, AreaTrianguloActivity::class.java))
             5 -> startActivity(Intent(this@MainActivity, PerimetroTrianguloActivity::class.java))
         }
     }
