@@ -15,6 +15,22 @@
             android:name=".ui.main.AreaTrianguloActivity"
             android:exported="false" />
         <activity
+            android:name=".ui.main.perimetro_rectangulo.PerimetroRectanguloActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.perimetro_hexagono.PerimetroHexagonoActivity"
+            android:configChanges="orientation|screenSize"
+            android:exported="false" />
+        <activity
+            android:name=".ui.main.PentagonAreaViewModel"
+            android:exported="false" />
+        <activity
+            android:name=".ui.main.PentagonAreaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.main.PerimetroPentagonoActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.main.PerimetroTrianguloActivity"
             android:exported="false" />
         <activity
