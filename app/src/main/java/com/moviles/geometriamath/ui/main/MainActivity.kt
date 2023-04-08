@@ -9,6 +9,8 @@ import android.widget.ArrayAdapter
 import android.widget.Toast
 import com.moviles.geometriamath.R
 import com.moviles.geometriamath.databinding.ActivityMainBinding
+import com.moviles.geometriamath.ui.main.perimetro_rectangulo.PerimetroRectanguloActivity
+import com.moviles.geometriamath.ui.perimetro_hexagono.PerimetroHexagonoActivity
 
 class MainActivity : AppCompatActivity(), AdapterView.OnItemClickListener {
 
@@ -48,6 +50,10 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemClickListener {
 //        }
         when(position){
             5 -> startActivity(Intent(this@MainActivity, PerimetroTrianguloActivity::class.java))
+            8 -> startActivity(Intent(this@MainActivity, PentagonAreaActivity::class.java))
+            9 -> startActivity(Intent(this@MainActivity, PerimetroPentagonoActivity::class.java))
+            11 -> startActivity(Intent(this@MainActivity, PerimetroHexagonoActivity::class.java))
+            7 -> startActivity(Intent(this@MainActivity, PerimetroRectanguloActivity::class.java))
         }
     }
 }

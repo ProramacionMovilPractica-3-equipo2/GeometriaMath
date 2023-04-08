@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="activity_perimetro_hexagono_text_view_tipo_hexagono">Tu hexágono es:</string>
+    <string name="activity_perimetro_hexagono_radio_button_regular">Regular</string>
+    <string name="activity_perimetro_hexagono_radio_button_irregular">Irregular</string>
+    <string name="activity_perimetro_hexagono_edt_hint_lado1">Lado1</string>
+    <string name="activity_perimetro_hexagono_edt_hint_lado2">Lado2</string>
+    <string name="activity_perimetro_hexagono_edt_hint_lado3">Lado3</string>
+    <string name="activity_perimetro_hexagono_edt_hint_lado4">Lado4</string>
+    <string name="activity_perimetro_hexagono_edt_hint_lado5">Lado5</string>
+    <string name="activity_perimetro_hexagono_edt_hint_lado6">Lado6</string>
+    <string name="activity_perimetro_hexagono_button_calcular">Calcular</string>
+    <string name="activity_perimetro_hexagono_btn_home">home</string>
+</resources>
