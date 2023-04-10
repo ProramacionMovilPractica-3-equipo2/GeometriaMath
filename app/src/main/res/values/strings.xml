@@ -3,6 +3,51 @@
     <string name="team">By team 2</string>
     <string name="selector_menu">Seleccione el calculo</string>
 
+    <string name="daniel_perimetrotriangulo">Perimetro del triangulo</string>
+
+    <string name="perimetroDaniel">\"El perímetro del triángulo es: \"</string>
+    <string name="activity_perimetro_hexagono_text_view_tipo_hexagono">Tu hexágono es:</string>
+    <string name="activity_perimetro_hexagono_radio_button_regular">Regular</string>
+    <string name="activity_perimetro_hexagono_radio_button_irregular">Irregular</string>
+    <string name="activity_perimetro_hexagono_edt_hint_lado1">Lado1</string>
+    <string name="activity_perimetro_hexagono_edt_hint_lado2">Lado2</string>
+    <string name="activity_perimetro_hexagono_edt_hint_lado3">Lado3</string>
+    <string name="activity_perimetro_hexagono_edt_hint_lado4">Lado4</string>
+    <string name="activity_perimetro_hexagono_edt_hint_lado5">Lado5</string>
+    <string name="activity_perimetro_hexagono_edt_hint_lado6">Lado6</string>
+    <string name="activity_perimetro_hexagono_button_calcular">Calcular</string>
+    <string name="activity_perimetro_hexagono_btn_home">home</string>
+    <string name="pPentagono_sizeA">Lado A</string>
+
+    <string name="pPentagono_sizeB">Lado B</string>
+    <string name="pPentagono_sizeC">Lado C</string>
+    <string name="pPentagono_sizeD">Lado D</string>
+    <string name="pPentagono_sizeE">Lado E</string>
+    <string name="pPentagono_button">OPERAR</string>
+    <string name="pPentagono_resultInfo">RESULTADO</string>
+    <string name="pPentagono_error_sideA_empty">El lado A está vacio</string>
+    <string name="pPentagono_error_sideB_empty">El lado B está vacio</string>
+    <string name="pPentagono_error_sideC_empty">El lado C está vacio</string>
+    <string name="pPentagono_error_sideD_empty">El lado D está vacio</string>
+    <string name="pPentagono_error_sideE_empty">El lado E está vacio</string>
+    <string name="Pentagono_sizeA">Lado A</string>
+
+
+    //Para area de pentagono
+    <string name="Pentagono_sizeB">Lado B</string>
+    <string name="Pentagono_sizeC">Lado C</string>
+    <string name="Pentagono_sizeD">Lado D</string>
+    <string name="Pentagono_sizeE">Lado E</string>
+    <string name="Pentagono_apothem">Apotema L</string>
+    <string name="Calculate_area">Calcular área</string>
+    <string name="Pentagono_resultInfo">RESULTADO</string>
+    <string name="lado_A">Lado A</string>
+
+
+    //Perimetro del rectangulo
+    <string name="lado_B">Lado B</string>
+    <string name="res_per_rec">\"El perímetro del triángulo es: \"</string>
+    <string name="perimetro_rectangulo">Perímetro de un Rectángulo</string>
     <string-array name="actividades">
         <item>Área Círculo</item>
         <item>Perímetro Círculo</item>
@@ -17,49 +62,4 @@
         <item>Área de un Hexágono</item>
         <item>Perímetro de un Hexágono</item>
     </string-array>
-
-    <string name="daniel_perimetrotriangulo">Perimetro del triangulo</string>
-    <string name="perimetroDaniel">\"El perímetro del triángulo es: \"</string>
-    <string name="activity_perimetro_hexagono_text_view_tipo_hexagono">Tu hexágono es:</string>
-    <string name="activity_perimetro_hexagono_radio_button_regular">Regular</string>
-    <string name="activity_perimetro_hexagono_radio_button_irregular">Irregular</string>
-    <string name="activity_perimetro_hexagono_edt_hint_lado1">Lado1</string>
-    <string name="activity_perimetro_hexagono_edt_hint_lado2">Lado2</string>
-    <string name="activity_perimetro_hexagono_edt_hint_lado3">Lado3</string>
-    <string name="activity_perimetro_hexagono_edt_hint_lado4">Lado4</string>
-    <string name="activity_perimetro_hexagono_edt_hint_lado5">Lado5</string>
-    <string name="activity_perimetro_hexagono_edt_hint_lado6">Lado6</string>
-    <string name="activity_perimetro_hexagono_button_calcular">Calcular</string>
-    <string name="activity_perimetro_hexagono_btn_home">home</string>
-
-    <string name="pPentagono_sizeA">Lado A</string>
-    <string name="pPentagono_sizeB">Lado B</string>
-    <string name="pPentagono_sizeC">Lado C</string>
-    <string name="pPentagono_sizeD">Lado D</string>
-    <string name="pPentagono_sizeE">Lado E</string>
-    <string name="pPentagono_button">OPERAR</string>
-    <string name="pPentagono_resultInfo">RESULTADO</string>
-    <string name="pPentagono_error_sideA_empty">El lado A está vacio</string>
-    <string name="pPentagono_error_sideB_empty">El lado B está vacio</string>
-    <string name="pPentagono_error_sideC_empty">El lado C está vacio</string>
-    <string name="pPentagono_error_sideD_empty">El lado D está vacio</string>
-    <string name="pPentagono_error_sideE_empty">El lado E está vacio</string>
-
-
-    //Para area de pentagono
-    <string name="Pentagono_sizeA">Lado A</string>
-    <string name="Pentagono_sizeB">Lado B</string>
-    <string name="Pentagono_sizeC">Lado C</string>
-    <string name="Pentagono_sizeD">Lado D</string>
-    <string name="Pentagono_sizeE">Lado E</string>
-    <string name="Pentagono_apothem">Apotema L</string>
-    <string name="Calculate_area">Calcular área</string>
-    <string name="Pentagono_resultInfo">RESULTADO</string>
-
-
-    //Perimetro del rectangulo
-    <string name="lado_A">Lado A</string>
-    <string name="lado_B">Lado B</string>
-    <string name="res_per_rec">\"El perímetro del triángulo es: \"</string>
-    <string name="perimetro_rectangulo">Perímetro de un Rectángulo</string>
 </resources>

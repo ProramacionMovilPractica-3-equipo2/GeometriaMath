@@ -12,6 +12,9 @@
         android:theme="@style/Theme.GeometriaMath"
         tools:targetApi="31">
         <activity
+            android:name=".ui.main.AreaCuadroActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.main.perimetro_rectangulo.PerimetroRectanguloActivity"
             android:exported="false" />
         <activity
