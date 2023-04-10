@@ -49,7 +49,7 @@
 
     //Perimetro del rectangulo
     <string name="lado_B">Lado B</string>
-    <string name="res_per_rec">\"El perímetro del triángulo es: \"</string>
+    <string name="res_per_rec">\El perímetro del rectángulo es: \</string>
     <string name="perimetro_rectangulo">Perímetro de un Rectángulo</string>
     <string name="area_cuadro">Área de un Cuadro</string>
     <string-array name="actividades">
