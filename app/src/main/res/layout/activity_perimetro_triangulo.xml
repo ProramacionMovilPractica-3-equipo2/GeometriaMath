@@ -31,7 +31,7 @@
             app:srcCompat="@drawable/perimeter" />
 
         <TextView
-            android:id="@+id/perimetrotriangulo_text_view"
+            android:id="@+id/area_cuadro_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
