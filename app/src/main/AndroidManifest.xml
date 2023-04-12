@@ -12,6 +12,9 @@
         android:theme="@style/Theme.GeometriaMath"
         tools:targetApi="31">
         <activity
+            android:name=".ui.main.AreaRectanguloActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.main.AreaTrianguloActivity"
             android:exported="false" />
         <activity
