@@ -18,6 +18,7 @@
         <item>Perímetro de un Hexágono</item>
     </string-array>
 
+    //Perimetro Hexagono
     <string name="daniel_perimetrotriangulo">Perimetro del triangulo</string>
     <string name="perimetroDaniel">\"El perímetro del triángulo es: \"</string>
     <string name="activity_perimetro_hexagono_text_view_tipo_hexagono">Tu hexágono es:</string>
@@ -31,6 +32,29 @@
     <string name="activity_perimetro_hexagono_edt_hint_lado6">Lado6</string>
     <string name="activity_perimetro_hexagono_button_calcular">Calcular</string>
     <string name="activity_perimetro_hexagono_btn_home">home</string>
+
+    //Area Hexagono
+    <string name="title_area_hexagono">Área del triangulo</string>
+    <string name="area_hexagono">\"El área del hexagono es: \"</string>
+    <string name="ah_text_view_tipo_hexagono">Tu hexágono es:</string>
+    <string name="ah_radio_button_regular">Regular</string>
+    <string name="ah_radio_button_irregular">Irregular</string>
+    <string name="ah_edt_hint_lado1">Lado 1</string>
+    <string name="ah_edt_hint_lado2">Lado 2</string>
+    <string name="ah_edt_hint_lado3">Lado 3</string>
+    <string name="ah_edt_hint_lado4">Lado 4</string>
+    <string name="ah_edt_hint_lado5">Lado 5</string>
+    <string name="ah_edt_hint_lado6">Lado 6</string>
+    <string name="ah_text_boton_calcular">Calcular</string>
+    <string name="ah_btn_home">home</string>
+
+    <string name="ah_altura1">Altura 1</string>
+    <string name="ah_altura2">Altura 2</string>
+    <string name="ah_altura3">Altura 3</string>
+    <string name="ah_altura4">Altura 4</string>
+    <string name="ah_altura5">Altura 5</string>
+    <string name="ah_altura6">Altura 6</string>
+
 
     <string name="pPentagono_sizeA">Lado A</string>
     <string name="pPentagono_sizeB">Lado B</string>
@@ -62,4 +86,5 @@
     <string name="lado_B">Lado B</string>
     <string name="res_per_rec">\"El perímetro del triángulo es: \"</string>
     <string name="perimetro_rectangulo">Perímetro de un Rectángulo</string>
+
 </resources>

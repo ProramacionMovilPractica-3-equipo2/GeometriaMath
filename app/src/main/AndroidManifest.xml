@@ -12,6 +12,13 @@
         android:theme="@style/Theme.GeometriaMath"
         tools:targetApi="31">
         <activity
+            android:name=".ui.area_hexagono.AreaHexagonoActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ui.area_hexagono.AreaHexagonoViewModel"
+            android:exported="false" />
+        <activity
             android:name=".ui.main.perimetro_rectangulo.PerimetroRectanguloActivity"
             android:exported="false" />
         <activity
