@@ -4,15 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.main.PerimetroTrianguloActivity">
+    tools:context=".ui.main.AreaCuadroActivity">
+
 
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:gravity="center"
         android:orientation="vertical"
-        android:padding="60dp">
+        android:padding="40dp"
+        tools:ignore="MissingConstraints">
 
         <TextView
             android:id="@+id/title_text_view"
@@ -28,48 +30,40 @@
             android:layout_height="200dp"
             android:layout_marginTop="24dp"
             android:contentDescription="@string/app_name"
-            app:srcCompat="@drawable/perimeter" />
+            app:srcCompat="@drawable/imagen_area_cuadro" />
 
         <TextView
             android:id="@+id/area_cuadro_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
-            android:text="@string/daniel_perimetrotriangulo"
-            android:textSize="24sp"
+            android:text="@string/area_cuadro"
+            android:textSize="22sp"
             android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/etLado1"
+            android:id="@+id/lado_a_edit_text"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Lado 1"
-            android:inputType="numberDecimal" />
-
-        <EditText
-            android:id="@+id/etLado2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Lado 2"
-            android:inputType="numberDecimal" />
-
-        <EditText
-            android:id="@+id/etLado3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Lado 3"
+            android:layout_height="57dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:hint="@string/lado_cuado"
             android:inputType="numberDecimal" />
 
         <Button
             android:id="@+id/btnCalcular"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
             android:text="Calcular" />
 
         <TextView
-            android:id="@+id/tvResultado"
+            android:id="@+id/resultado_text_view"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textSize="14sp"
+            android:textStyle="bold" />
 
     </LinearLayout>
 
@@ -94,6 +88,8 @@
         android:text="@string/team"
         app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
