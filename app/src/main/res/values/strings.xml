@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Geometry Math</string>
     <string name="team">By team 2</string>
     <string name="selector_menu">Seleccione el calculo</string>
@@ -28,7 +28,7 @@
     <string name="activity_perimetro_hexagono_text_view_tipo_hexagono">Tu hexágono es:</string>
     <string name="activity_perimetro_hexagono_radio_button_regular">Regular</string>
     <string name="activity_perimetro_hexagono_radio_button_irregular">Irregular</string>
-    <string name="activity_perimetro_hexagono_edt_hint_lado1">Lado1</string>
+    <string name="activity_perimetro_hexagono_edt_hint_lado1" tools:ignore="Typos">Lado1</string>
     <string name="activity_perimetro_hexagono_edt_hint_lado2">Lado2</string>
     <string name="activity_perimetro_hexagono_edt_hint_lado3">Lado3</string>
     <string name="activity_perimetro_hexagono_edt_hint_lado4">Lado4</string>
@@ -68,4 +68,8 @@
     <string name="lado_B">Lado B</string>
     <string name="res_per_rec">\"El perímetro del triángulo es: \"</string>
     <string name="perimetro_rectangulo">Perímetro de un Rectángulo</string>
+
+    //recntangulo
+    <string name="area_rectangulo">Area rectangulo = Base x Altura</string>
+    <string name="rectangulo_area_resultado">el área del rectangulo :</string>
 </resources>
