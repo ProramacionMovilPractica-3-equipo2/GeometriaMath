@@ -1,4 +1,4 @@
-package com.moviles.geometriamath.ui.main
+package com.moviles.geometriamath.ui.rectangulo
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

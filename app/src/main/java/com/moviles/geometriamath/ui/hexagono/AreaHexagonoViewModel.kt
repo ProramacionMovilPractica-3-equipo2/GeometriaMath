@@ -1,10 +1,9 @@
-package com.moviles.geometriamath.ui.area_hexagono
+package com.moviles.geometriamath.ui.hexagono
 
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import kotlin.math.roundToInt
-import kotlin.math.roundToLong
 
 
 class AreaHexagonoViewModel : ViewModel() {
@@ -18,7 +17,7 @@ class AreaHexagonoViewModel : ViewModel() {
 
     fun calcularArea(rb1:Boolean,l1:String,l2:String,l3:String,l4:String,l5:String,l6:String,h1:String,h2:String,h3:String,h4:String,h5:String,h6:String) {
 
-        if (rb1==true){
+        if (rb1){
             if (l1.isEmpty() || l1 =="."){
                 msg.value = "Error. Colocar el valor del Lado"
             }else if(l1.toDouble() > 0){
@@ -30,7 +29,7 @@ class AreaHexagonoViewModel : ViewModel() {
                 msg.value = "Rellenar campos vacíos"
 
             } else{
-                val date = arrayOf<String>(l1,l2,l3,l4,l5,l6,h1,h2,h3,h4,h5,h6)
+                val date = arrayOf(l1,l2,l3,l4,l5,l6,h1,h2,h3,h4,h5,h6)
                 var bandError= true
                 for(i in date.indices){
                     if(date[i] =="." || date[i] == "0"){

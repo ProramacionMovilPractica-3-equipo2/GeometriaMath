@@ -1,4 +1,4 @@
-package com.moviles.geometriamath.ui.main
+package com.moviles.geometriamath.ui.pentagono
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -25,7 +25,7 @@ class PerimetroPentagonoActivity : AppCompatActivity() {
         var textView: TextView
 
         with(binding){
-            setTextViewsIds_toModel()
+            setTextViewsIdstoModel()
 
             operateButton.setOnClickListener{
                 setDefaultColorToTextViews()
@@ -63,7 +63,7 @@ class PerimetroPentagonoActivity : AppCompatActivity() {
         sideETextView.setTextColor(ContextCompat.getColor(this@PerimetroPentagonoActivity, R.color.ic_launcher_background))
     }
 
-    private fun ActivityPerimetroPentagonoBinding.setTextViewsIds_toModel() {
+    private fun ActivityPerimetroPentagonoBinding.setTextViewsIdstoModel() {
         val arrayOfTextViewsIds =
             arrayOf(
                 sideATextView.id,

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.main.PerimetroTrianguloActivity">
+    tools:context=".ui.triangulo.PerimetroTrianguloActivity">
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -28,7 +28,8 @@
             android:layout_height="200dp"
             android:layout_marginTop="24dp"
             android:contentDescription="@string/app_name"
-            app:srcCompat="@drawable/perimeter" />
+            app:srcCompat="@drawable/perimeter"
+            tools:ignore="ImageContrastCheck" />
 
         <TextView
             android:id="@+id/area_cuadro_text_view"
@@ -43,28 +44,38 @@
             android:id="@+id/etLado1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Lado 1"
-            android:inputType="numberDecimal" />
+            android:hint="@string/lado_1"
+            android:inputType="numberDecimal"
+            android:minHeight="48dp"
+            android:autofillHints=""
+            tools:ignore="VisualLintTextFieldSize" />
 
         <EditText
             android:id="@+id/etLado2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Lado 2"
-            android:inputType="numberDecimal" />
+            android:autofillHints=""
+            android:hint="@string/lado_2"
+            android:inputType="numberDecimal"
+            android:minHeight="48dp"
+            tools:ignore="VisualLintTextFieldSize" />
 
         <EditText
             android:id="@+id/etLado3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Lado 3"
-            android:inputType="numberDecimal" />
+            android:hint="@string/lado_3"
+            android:inputType="numberDecimal"
+            android:minHeight="48dp"
+            android:autofillHints=""
+            tools:ignore="VisualLintTextFieldSize" />
 
         <Button
             android:id="@+id/btnCalcular"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Calcular" />
+            android:text="@string/botonCalcular"
+            tools:ignore="TextContrastCheck,VisualLintButtonSize" />
 
         <TextView
             android:id="@+id/tvResultado"
@@ -80,11 +91,13 @@
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
         android:clickable="true"
-        android:contentDescription="home"
+        android:contentDescription="@string/home"
+        android:focusable="true"
         app:backgroundTint="#00BCD4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="?attr/homeAsUpIndicator" />
+        app:srcCompat="?attr/homeAsUpIndicator"
+        tools:ignore="ImageContrastCheck" />
 
     <TextView
         android:id="@+id/textView5"

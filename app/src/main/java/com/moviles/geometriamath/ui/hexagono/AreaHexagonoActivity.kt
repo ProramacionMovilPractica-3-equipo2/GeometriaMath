@@ -1,4 +1,4 @@
-package com.moviles.geometriamath.ui.area_hexagono
+package com.moviles.geometriamath.ui.hexagono
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -23,7 +23,7 @@ class AreaHexagonoActivity : AppCompatActivity() {
         val view = areaHexagonoBinding.root
         setContentView(view)
 
-        if(areaHexagonoBinding.rbRegular.isChecked()){
+        if(areaHexagonoBinding.rbRegular.isChecked){
             ocultar()
 
         }
@@ -49,7 +49,7 @@ class AreaHexagonoActivity : AppCompatActivity() {
         areaHexagonoViewModel.msg.observe(this, mensaje)
 
         areaHexagonoBinding.btnCalcular.setOnClickListener {
-            val rb1 = areaHexagonoBinding.rbRegular.isChecked()
+            val rb1 = areaHexagonoBinding.rbRegular.isChecked
             val l1 = areaHexagonoBinding.edtL1.text.toString()
             val l2 = areaHexagonoBinding.edtL2.text.toString()
             val l3 = areaHexagonoBinding.edtL3.text.toString()

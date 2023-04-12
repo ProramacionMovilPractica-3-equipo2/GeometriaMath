@@ -10,8 +10,8 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/contraint_layout_main"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:context=".ui.area_hexagono.AreaHexagonoActivity">
+        android:layout_height="wrap_content"
+        tools:context=".ui.hexagono.AreaHexagonoActivity">
 
         <TextView
             android:id="@+id/text_view_app_name"
@@ -99,7 +99,8 @@
                         android:hint="@string/ah_edt_hint_lado1"
                         android:inputType="numberDecimal"
                         android:textColor="#000000"
-                        android:textColorHint="@color/black" />
+                        android:textColorHint="@color/black"
+                        tools:ignore="TextContrastCheck" />
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <com.google.android.material.textfield.TextInputLayout
@@ -117,7 +118,8 @@
                         android:hint="@string/ah_edt_hint_lado2"
                         android:inputType="numberDecimal"
                         android:textColor="@color/black"
-                        android:textColorHint="@color/black" />
+                        android:textColorHint="@color/black"
+                        tools:ignore="TextContrastCheck" />
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <com.google.android.material.textfield.TextInputLayout
@@ -133,7 +135,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:hint="@string/ah_edt_hint_lado3"
-                        android:inputType="numberDecimal" />
+                        android:inputType="numberDecimal"
+                        tools:ignore="TextContrastCheck" />
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <com.google.android.material.textfield.TextInputLayout
@@ -151,7 +154,8 @@
                         android:layout_height="wrap_content"
                         android:hint="@string/ah_edt_hint_lado4"
 
-                        android:inputType="numberDecimal" />
+                        android:inputType="numberDecimal"
+                        tools:ignore="TextContrastCheck" />
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <com.google.android.material.textfield.TextInputLayout
@@ -168,7 +172,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="@string/ah_edt_hint_lado5"
-                        android:inputType="numberDecimal" />
+                        android:inputType="numberDecimal"
+                        tools:ignore="TextContrastCheck" />
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <com.google.android.material.textfield.TextInputLayout
@@ -185,7 +190,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="@string/ah_edt_hint_lado6"
-                        android:inputType="numberDecimal" />
+                        android:inputType="numberDecimal"
+                        tools:ignore="TextContrastCheck" />
                 </com.google.android.material.textfield.TextInputLayout>
             </LinearLayout>
 
@@ -209,7 +215,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:hint="@string/ah_altura1"
-                        android:inputType="numberDecimal" />
+                        android:inputType="numberDecimal"
+                        tools:ignore="TextContrastCheck" />
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <com.google.android.material.textfield.TextInputLayout
@@ -226,7 +233,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="@string/ah_altura2"
-                        android:inputType="numberDecimal" />
+                        android:inputType="numberDecimal"
+                        tools:ignore="TextContrastCheck" />
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <com.google.android.material.textfield.TextInputLayout
@@ -243,7 +251,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="@string/ah_altura3"
-                        android:inputType="numberDecimal" />
+                        android:inputType="numberDecimal"
+                        tools:ignore="TextContrastCheck" />
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <com.google.android.material.textfield.TextInputLayout
@@ -260,7 +269,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="@string/ah_altura4"
-                        android:inputType="numberDecimal" />
+                        android:inputType="numberDecimal"
+                        tools:ignore="TextContrastCheck" />
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <com.google.android.material.textfield.TextInputLayout
@@ -277,7 +287,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="@string/ah_altura5"
-                        android:inputType="numberDecimal" />
+                        android:inputType="numberDecimal"
+                        tools:ignore="TextContrastCheck" />
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <com.google.android.material.textfield.TextInputLayout
@@ -294,7 +305,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="@string/ah_altura6"
-                        android:inputType="numberDecimal" />
+                        android:inputType="numberDecimal"
+                        tools:ignore="TextContrastCheck" />
                 </com.google.android.material.textfield.TextInputLayout>
             </LinearLayout>
 
@@ -305,11 +317,12 @@
             android:layout_width="333dp"
             android:layout_height="48dp"
             android:layout_marginTop="8dp"
-            app:cornerRadius="12dp"
             android:text="@string/ah_text_boton_calcular"
+            app:cornerRadius="12dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/linear_layout_horizontal" />
+            app:layout_constraintTop_toBottomOf="@+id/linear_layout_horizontal"
+            tools:ignore="TextContrastCheck" />
 
         <TextView
             android:id="@+id/tv_ah_result"
@@ -339,12 +352,14 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.932"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btn_calcular" />
+            app:layout_constraintTop_toBottomOf="@+id/btn_calcular"
+            tools:ignore="ImageContrastCheck" />
 
         <ImageView
             android:id="@+id/imageView2"
             android:layout_width="308dp"
             android:layout_height="173dp"
+            android:contentDescription="@string/app_name"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/text_view_app_name"
@@ -354,9 +369,8 @@
             android:id="@+id/text_by"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="By team 2"
             android:layout_marginTop="16dp"
-            android:layout_marginBottom="16dp"
+            android:text="@string/team"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tv_ah_result" />

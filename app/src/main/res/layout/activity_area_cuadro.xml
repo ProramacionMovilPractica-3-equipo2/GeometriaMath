@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.main.AreaCuadroActivity">
+    tools:context=".ui.cuadrado.AreaCuadroActivity">
 
 
     <LinearLayout
@@ -48,14 +48,17 @@
             android:layout_marginBottom="10dp"
             android:layout_marginTop="20dp"
             android:hint="@string/lado_cuado"
-            android:inputType="numberDecimal" />
+            android:inputType="numberDecimal"
+            android:autofillHints=""
+            tools:ignore="VisualLintTextFieldSize" />
 
         <Button
             android:id="@+id/btnCalcular"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Calcular" />
+            android:text="@string/botonCalcular"
+            tools:ignore="TextContrastCheck,VisualLintButtonSize" />
 
         <TextView
             android:id="@+id/resultado_text_view"
@@ -74,11 +77,13 @@
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
         android:clickable="true"
-        android:contentDescription="home"
+        android:contentDescription="@string/home"
         app:backgroundTint="#00BCD4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="?attr/homeAsUpIndicator" />
+        app:srcCompat="?attr/homeAsUpIndicator"
+        tools:ignore="ImageContrastCheck"
+        android:focusable="true" />
 
     <TextView
         android:id="@+id/textView5"

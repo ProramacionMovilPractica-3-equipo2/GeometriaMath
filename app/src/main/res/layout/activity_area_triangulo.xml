@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.main.AreaTrianguloActivity">
+    tools:context=".ui.triangulo.AreaTrianguloActivity">
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -49,7 +49,9 @@
             android:hint="@string/baseTriangulo"
             android:inputType="numberDecimal"
             android:minWidth="50sp"
-            android:minHeight="70sp" />
+            android:minHeight="70sp"
+            android:autofillHints=""
+            tools:ignore="VisualLintTextFieldSize" />
 
         <EditText
             android:id="@+id/altura"
@@ -58,13 +60,16 @@
             android:hint="@string/alturaTriangulo"
             android:inputType="numberDecimal"
             android:minWidth="50sp"
-            android:minHeight="70sp" />
+            android:minHeight="70sp"
+            android:autofillHints=""
+            tools:ignore="VisualLintTextFieldSize" />
 
         <Button
             android:id="@+id/botonCalcular"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/botonCalcular" />
+            android:text="@string/botonCalcular"
+            tools:ignore="TextContrastCheck,VisualLintButtonSize" />
 
         <TextView
             android:id="@+id/tvArea"
@@ -80,11 +85,13 @@
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
         android:clickable="true"
-        android:contentDescription="home"
+        android:contentDescription="@string/home"
+        android:focusable="true"
         app:backgroundTint="#00BCD4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="?attr/homeAsUpIndicator" />
+        app:srcCompat="?attr/homeAsUpIndicator"
+        tools:ignore="ImageContrastCheck" />
 
     <TextView
         android:id= "@+id/textView5"

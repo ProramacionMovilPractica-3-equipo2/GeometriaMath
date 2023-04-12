@@ -1,6 +1,5 @@
-package com.moviles.geometriamath.ui.main
+package com.moviles.geometriamath.ui.triangulo
 
-import android.widget.Toast
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel

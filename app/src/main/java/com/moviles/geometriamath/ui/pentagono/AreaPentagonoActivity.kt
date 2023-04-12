@@ -1,4 +1,4 @@
-package com.moviles.geometriamath.ui.main
+package com.moviles.geometriamath.ui.pentagono
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
