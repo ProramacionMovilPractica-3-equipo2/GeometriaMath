@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="3dp"
-    tools:context=".ui.main.AreaRectanguloActivity">
+    tools:context=".ui.rectangulo.AreaRectanguloActivity">
 
     <ImageView
         android:id="@+id/imageView2"

@@ -1,4 +1,4 @@
-package com.moviles.geometriamath.ui.perimetro_hexagono
+package com.moviles.geometriamath.ui.hexagono
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -32,7 +32,7 @@ class PerimetroHexagonoActivity : AppCompatActivity() {
 		}
 
 		val salida = Observer<String>{salida->
-			perimetroHexagonoBinding.tvResultado.setText(salida)
+			perimetroHexagonoBinding.tvResultado.text = salida
 		}
 		perimetroHexagonoViewModel.resultado.observe(this,salida)
 
@@ -42,7 +42,7 @@ class PerimetroHexagonoActivity : AppCompatActivity() {
 		perimetroHexagonoViewModel.msg.observe(this,mensaje)
 
 		perimetroHexagonoBinding.btnCalcular.setOnClickListener {
-			val rb1 = perimetroHexagonoBinding.rbRegular.isChecked()
+			val rb1 = perimetroHexagonoBinding.rbRegular.isChecked
 			val l1 = perimetroHexagonoBinding.edtL1.text.toString()
 			val l2 = perimetroHexagonoBinding.edtL2.text.toString()
 			val l3 = perimetroHexagonoBinding.edtL3.text.toString()
@@ -65,7 +65,7 @@ class PerimetroHexagonoActivity : AppCompatActivity() {
 		perimetroHexagonoBinding.edtL4.setText("")
 		perimetroHexagonoBinding.edtL5.setText("")
 		perimetroHexagonoBinding.edtL6.setText("")
-		perimetroHexagonoBinding.tvResultado.setText("")
+		perimetroHexagonoBinding.tvResultado.text = ""
 	}
 	private fun mostrar() {
 		perimetroHexagonoBinding.tilL2.visibility = View.VISIBLE

@@ -1,4 +1,4 @@
-package com.moviles.geometriamath.ui.perimetro_hexagono
+package com.moviles.geometriamath.ui.hexagono
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -10,7 +10,7 @@ class PerimetroHexagonoViewModel : ViewModel()  {
 
 	fun calcular(rb1:Boolean,l1:String,l2:String,l3:String,l4:String,l5:String,l6:String) {
 
-		if (rb1==true){
+		if (rb1){
 			if (l1.isEmpty()){
 				msg.value = "Rellenar campos vacíos"
 			}else{

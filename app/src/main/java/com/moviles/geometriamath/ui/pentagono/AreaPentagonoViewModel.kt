@@ -1,4 +1,4 @@
-package com.moviles.geometriamath.ui.main
+package com.moviles.geometriamath.ui.pentagono
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel

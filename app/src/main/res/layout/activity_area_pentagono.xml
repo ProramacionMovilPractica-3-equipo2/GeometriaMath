@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".ui.main.PerimetroPentagonoActivity">
+    tools:context=".ui.pentagono.PerimetroPentagonoActivity">
 
     <ImageView
         android:id="@+id/imageView"
@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:orientation="horizontal"
-        tools:context=".ui.main.PerimetroPentagonoActivity">
+        tools:context=".ui.pentagono.PerimetroPentagonoActivity">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/Lado_A_edit_text"
@@ -60,7 +60,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:orientation="horizontal"
-        tools:context=".ui.main.PerimetroPentagonoActivity">
+        tools:context=".ui.pentagono.PerimetroPentagonoActivity">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/Lado_D_edit_text"
@@ -99,7 +99,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="@string/Calculate_area"
-        android:textAllCaps="false" />
+        android:textAllCaps="false"
+        tools:ignore="TextContrastCheck,VisualLintButtonSize" />
 
     <View
         android:layout_width="match_parent"

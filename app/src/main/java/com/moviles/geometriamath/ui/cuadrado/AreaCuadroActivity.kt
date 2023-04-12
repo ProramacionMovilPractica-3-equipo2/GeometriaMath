@@ -1,4 +1,4 @@
-package com.moviles.geometriamath.ui.main
+package com.moviles.geometriamath.ui.cuadrado
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -7,6 +7,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.moviles.geometriamath.R
 import com.moviles.geometriamath.databinding.ActivityAreaCuadroBinding
+import com.moviles.geometriamath.ui.main.MainActivity
 
 
 class AreaCuadroActivity : AppCompatActivity() {
@@ -24,7 +25,7 @@ class AreaCuadroActivity : AppCompatActivity() {
         val resultadoObserver = Observer<Float>{resultado ->
             areaCuadroBinding.resultadoTextView.text= buildString {
                 append(getString(R.string.mensaje_area_cuadro))
-                append(" " + resultado)
+                append(" $resultado")
             }
         }
 

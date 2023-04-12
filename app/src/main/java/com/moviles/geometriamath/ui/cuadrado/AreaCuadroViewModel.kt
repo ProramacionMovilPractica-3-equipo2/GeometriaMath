@@ -1,4 +1,4 @@
-package com.moviles.geometriamath.ui.main
+package com.moviles.geometriamath.ui.cuadrado
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

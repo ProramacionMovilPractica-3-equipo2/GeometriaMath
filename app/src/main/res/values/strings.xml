@@ -1,4 +1,5 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
+
     <string name="app_name">Geometry Math</string>
     <string name="team">By team 2</string>
     <string name="selector_menu">Seleccione el cálculo</string>
@@ -24,8 +25,6 @@
     <string name="activity_perimetro_hexagono_button_calcular">Calcular</string>
     <string name="activity_perimetro_hexagono_btn_home">home</string>
     <string name="lado_cuado">Valor del lado del cuadro</string>
-
-
 
     //Area Hexagono
     <string name="title_area_hexagono">Área del triangulo</string>
@@ -85,12 +84,13 @@
     <string name="area_rectangulo">Area rectangulo = Base x Altura</string>
     <string name="rectangulo_area_resultado">el área del rectangulo :</string>
     <string name="area_cuadro">Área de un Cuadro</string>
+    <string name="home">home</string>
+    <string name="lado_1">Lado 1</string>
+    <string name="lado_2">Lado 2</string>
+    <string name="lado_3">Lado 3</string>
 
     <string-array name="actividades">
-        <item>Área Círculo</item>
-        <item>Perímetro Círculo</item>
         <item>Área Cuadro</item>
-        <item>Perímetro Cuadro</item>
         <item>Área Triángulo</item>
         <item>Perímetro Triángulo</item>
         <item>Área Rectángulo</item>

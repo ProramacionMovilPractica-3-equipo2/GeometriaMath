@@ -11,7 +11,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:context=".ui.perimetro_hexagono.PerimetroHexagonoActivity"
+        tools:context=".ui.hexagono.PerimetroHexagonoActivity"
         android:padding="60dp">
 
         <TextView
@@ -61,14 +61,16 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:checked="true"
-                android:text="@string/activity_perimetro_hexagono_radio_button_regular" />
+                android:text="@string/activity_perimetro_hexagono_radio_button_regular"
+                tools:ignore="VisualLintButtonSize" />
 
             <RadioButton
                 android:id="@+id/rbIrregular"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/activity_perimetro_hexagono_radio_button_irregular" />
+                android:text="@string/activity_perimetro_hexagono_radio_button_irregular"
+                tools:ignore="VisualLintButtonSize" />
         </RadioGroup>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -85,8 +87,9 @@
                 android:id="@+id/edtL1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:hint="@string/activity_perimetro_hexagono_edt_hint_lado1"
                 android:inputType="numberDecimal"
-                android:hint="@string/activity_perimetro_hexagono_edt_hint_lado1"/>
+                tools:ignore="TextContrastCheck,VisualLintTextFieldSize" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -193,7 +196,8 @@
             app:cornerRadius="12dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tilL6" />
+            app:layout_constraintTop_toBottomOf="@+id/tilL6"
+            tools:ignore="TextContrastCheck,VisualLintButtonSize" />
 
         <TextView
             android:id="@+id/tvResultado"
@@ -223,11 +227,12 @@
             android:layout_marginBottom="8dp"
             android:clickable="true"
             android:contentDescription="@string/activity_perimetro_hexagono_btn_home"
+            android:focusable="true"
             app:backgroundTint="#00BCD4"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:srcCompat="?attr/homeAsUpIndicator"
-            android:focusable="true" />
+            tools:ignore="ImageContrastCheck" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

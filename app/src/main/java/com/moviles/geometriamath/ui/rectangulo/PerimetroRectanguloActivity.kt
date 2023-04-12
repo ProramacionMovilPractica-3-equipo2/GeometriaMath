@@ -1,9 +1,8 @@
-package com.moviles.geometriamath.ui.main.perimetro_rectangulo
+package com.moviles.geometriamath.ui.rectangulo
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.moviles.geometriamath.databinding.ActivityPerimetroPentagonoBinding
 import com.moviles.geometriamath.databinding.ActivityPerimetroRectanguloBinding
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
