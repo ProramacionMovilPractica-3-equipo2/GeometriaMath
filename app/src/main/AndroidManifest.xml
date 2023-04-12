@@ -22,9 +22,6 @@
             android:exported="false" />
 
         <activity
-            android:name=".ui.area_hexagono.AreaHexagonoViewModel"
-            android:exported="false" />
-        <activity
             android:name=".ui.main.perimetro_rectangulo.PerimetroRectanguloActivity"
             android:exported="false" />
         <activity
