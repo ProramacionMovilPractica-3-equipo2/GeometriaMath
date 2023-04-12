@@ -12,7 +12,36 @@
         android:theme="@style/Theme.GeometriaMath"
         tools:targetApi="31">
         <activity
-            android:name=".ui.main.PerimetroTrianguloActivity"
+            android:name=".ui.rectangulo.AreaRectanguloActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.triangulo.AreaTrianguloActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.cuadrado.AreaCuadroActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.hexagono.AreaHexagonoActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ui.rectangulo.PerimetroRectanguloActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.hexagono.PerimetroHexagonoActivity"
+            android:configChanges="orientation|screenSize"
+            android:exported="false" />
+        <activity
+            android:name=".ui.pentagono.PentagonAreaViewModel"
+            android:exported="false" />
+        <activity
+            android:name=".ui.pentagono.PentagonAreaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.pentagono.PerimetroPentagonoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.triangulo.PerimetroTrianguloActivity"
             android:exported="false" />
         <activity
             android:name=".ui.splash.SplashActivity"

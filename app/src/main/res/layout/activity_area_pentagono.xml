@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.pentagono.PerimetroPentagonoActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="400dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@null"
+        app:srcCompat="@drawable/pentagon_area" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        tools:context=".ui.pentagono.PerimetroPentagonoActivity">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/Lado_A_edit_text"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:hint="@string/Pentagono_sizeA"
+            android:inputType="number|numberDecimal"
+            android:padding="8dp"
+            android:textSize="12sp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/Lado_B_edit_text"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:hint="@string/Pentagono_sizeB"
+            android:inputType="number|numberDecimal"
+            android:padding="8dp"
+            android:textSize="12sp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/Lado_C_edit_text"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:hint="@string/Pentagono_sizeC"
+            android:inputType="number|numberDecimal"
+            android:padding="8dp"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        tools:context=".ui.pentagono.PerimetroPentagonoActivity">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/Lado_D_edit_text"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:hint="@string/Pentagono_sizeD"
+            android:inputType="number|numberDecimal"
+            android:padding="8dp"
+            android:textSize="12sp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/Lado_E_edit_text"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:hint="@string/Pentagono_sizeE"
+            android:inputType="number|numberDecimal"
+            android:padding="8dp"
+            android:textSize="12sp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/Apothem_edit_text"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:hint="@string/Pentagono_apothem"
+            android:inputType="number|numberDecimal"
+            android:padding="8dp"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/operate_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/Calculate_area"
+        android:textAllCaps="false"
+        tools:ignore="TextContrastCheck,VisualLintButtonSize" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="114dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_area"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/Pentagono_resultInfo" />
+
+        <TextView
+            android:id="@+id/area_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:textColor="#101010"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="70dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/infoTeam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/pPentagono_margin_bottom_teamInfo"
+            android:text="@string/team" />
+    </LinearLayout>
+
+</LinearLayout>

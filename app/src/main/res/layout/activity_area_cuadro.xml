@@ -4,15 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.triangulo.PerimetroTrianguloActivity">
+    tools:context=".ui.cuadrado.AreaCuadroActivity">
+
 
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:gravity="center"
         android:orientation="vertical"
-        android:padding="60dp">
+        android:padding="40dp"
+        tools:ignore="MissingConstraints">
 
         <TextView
             android:id="@+id/title_text_view"
@@ -28,45 +30,25 @@
             android:layout_height="200dp"
             android:layout_marginTop="24dp"
             android:contentDescription="@string/app_name"
-            app:srcCompat="@drawable/perimeter"
-            tools:ignore="ImageContrastCheck" />
+            app:srcCompat="@drawable/imagen_area_cuadro" />
 
         <TextView
             android:id="@+id/area_cuadro_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
-            android:text="@string/daniel_perimetrotriangulo"
-            android:textSize="24sp"
+            android:text="@string/area_cuadro"
+            android:textSize="22sp"
             android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/etLado1"
+            android:id="@+id/lado_a_edit_text"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/lado_1"
+            android:layout_height="57dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:hint="@string/lado_cuado"
             android:inputType="numberDecimal"
-            android:minHeight="48dp"
-            android:autofillHints=""
-            tools:ignore="VisualLintTextFieldSize" />
-
-        <EditText
-            android:id="@+id/etLado2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:autofillHints=""
-            android:hint="@string/lado_2"
-            android:inputType="numberDecimal"
-            android:minHeight="48dp"
-            tools:ignore="VisualLintTextFieldSize" />
-
-        <EditText
-            android:id="@+id/etLado3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/lado_3"
-            android:inputType="numberDecimal"
-            android:minHeight="48dp"
             android:autofillHints=""
             tools:ignore="VisualLintTextFieldSize" />
 
@@ -74,13 +56,17 @@
             android:id="@+id/btnCalcular"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
             android:text="@string/botonCalcular"
             tools:ignore="TextContrastCheck,VisualLintButtonSize" />
 
         <TextView
-            android:id="@+id/tvResultado"
+            android:id="@+id/resultado_text_view"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textSize="14sp"
+            android:textStyle="bold" />
 
     </LinearLayout>
 
@@ -92,12 +78,12 @@
         android:layout_marginBottom="16dp"
         android:clickable="true"
         android:contentDescription="@string/home"
-        android:focusable="true"
         app:backgroundTint="#00BCD4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="?attr/homeAsUpIndicator"
-        tools:ignore="ImageContrastCheck" />
+        tools:ignore="ImageContrastCheck"
+        android:focusable="true" />
 
     <TextView
         android:id="@+id/textView5"
@@ -107,6 +93,8 @@
         android:text="@string/team"
         app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

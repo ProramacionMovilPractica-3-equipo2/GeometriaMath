@@ -4,15 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.triangulo.PerimetroTrianguloActivity">
+    tools:context=".ui.rectangulo.PerimetroRectanguloActivity">
 
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:gravity="center"
         android:orientation="vertical"
-        android:padding="60dp">
+        android:padding="40dp"
+        tools:ignore="MissingConstraints">
 
         <TextView
             android:id="@+id/title_text_view"
@@ -24,63 +25,57 @@
 
         <ImageView
             android:id="@+id/icon_app_image_view"
-            android:layout_width="200dp"
-            android:layout_height="200dp"
+            android:layout_width="250dp"
+            android:layout_height="187dp"
             android:layout_marginTop="24dp"
             android:contentDescription="@string/app_name"
-            app:srcCompat="@drawable/perimeter"
-            tools:ignore="ImageContrastCheck" />
+            app:srcCompat="@drawable/image_p_r" />
 
         <TextView
             android:id="@+id/area_cuadro_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
-            android:text="@string/daniel_perimetrotriangulo"
-            android:textSize="24sp"
+            android:text="@string/perimetro_rectangulo"
+            android:textSize="22sp"
             android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/etLado1"
+            android:id="@+id/lado_a_edit_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/lado_1"
+            android:layout_marginTop="30dp"
+            android:hint="@string/lado_A"
             android:inputType="numberDecimal"
             android:minHeight="48dp"
             android:autofillHints=""
             tools:ignore="VisualLintTextFieldSize" />
 
         <EditText
-            android:id="@+id/etLado2"
+            android:id="@+id/lado_b_edit_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:autofillHints=""
-            android:hint="@string/lado_2"
+            android:hint="@string/lado_B"
             android:inputType="numberDecimal"
             android:minHeight="48dp"
-            tools:ignore="VisualLintTextFieldSize" />
-
-        <EditText
-            android:id="@+id/etLado3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/lado_3"
-            android:inputType="numberDecimal"
-            android:minHeight="48dp"
-            android:autofillHints=""
             tools:ignore="VisualLintTextFieldSize" />
 
         <Button
             android:id="@+id/btnCalcular"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
             android:text="@string/botonCalcular"
             tools:ignore="TextContrastCheck,VisualLintButtonSize" />
 
         <TextView
-            android:id="@+id/tvResultado"
+            android:id="@+id/resultado_text_view"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textSize="14sp"
+            android:textStyle="bold" />
 
     </LinearLayout>
 
@@ -107,6 +102,7 @@
         android:text="@string/team"
         app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
