@@ -50,6 +50,7 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemClickListener {
 //        }
         when(position){
             2 -> startActivity(Intent(this@MainActivity, AreaCuadroActivity::class.java))
+            4 -> startActivity(Intent(this@MainActivity, AreaTrianguloActivity::class.java))
             5 -> startActivity(Intent(this@MainActivity, PerimetroTrianguloActivity::class.java))
             8 -> startActivity(Intent(this@MainActivity, PentagonAreaActivity::class.java))
             9 -> startActivity(Intent(this@MainActivity, PerimetroPentagonoActivity::class.java))

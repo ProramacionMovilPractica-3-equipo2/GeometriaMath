@@ -4,9 +4,13 @@
     <string name="selector_menu">Seleccione el cálculo</string>
 
     <string name="daniel_perimetrotriangulo">Perímetro del triángulo</string>
-
     <string name="perimetroDaniel">\El perímetro del triángulo es: \</string>
     <string name="mensaje_area_cuadro">\El área del cuadro es:  \</string>
+    <string name="AreaTriangulo">Área del Triángulo</string>
+    <string name="baseTriangulo">Base</string>
+    <string name="alturaTriangulo">Altura</string>
+    <string name="botonCalcular">Calcular</string>
+    <string name="Area_Triangulo">"Área del Triángulo: "</string>
     <string name="activity_perimetro_hexagono_text_view_tipo_hexagono">Tu hexágono es:</string>
     <string name="activity_perimetro_hexagono_radio_button_regular">Regular</string>
     <string name="activity_perimetro_hexagono_radio_button_irregular">Irregular</string>
@@ -19,6 +23,7 @@
     <string name="activity_perimetro_hexagono_button_calcular">Calcular</string>
     <string name="activity_perimetro_hexagono_btn_home">home</string>
     <string name="lado_cuado">Valor del lado del cuadro</string>
+
 
 
     <string name="pPentagono_sizeA">Lado A</string>
@@ -52,6 +57,7 @@
     <string name="res_per_rec">\El perímetro del rectángulo es: \</string>
     <string name="perimetro_rectangulo">Perímetro de un Rectángulo</string>
     <string name="area_cuadro">Área de un Cuadro</string>
+
     <string-array name="actividades">
         <item>Área Círculo</item>
         <item>Perímetro Círculo</item>
