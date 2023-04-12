@@ -44,7 +44,7 @@ class AreaHexagonoViewModel : ViewModel() {
                                 + ((l4.toDouble() * h4.toDouble()) / 2) + ((l5.toDouble() * h5.toDouble()) / 2) + ((l6.toDouble() * h6.toDouble()) / 2)).toString() + " cm2"
 
                 }
-                else msg.value = "Error. Ingresar números positivos"
+                else msg.value = "Error. Por favor ingresar números positivos"
 //
             }
         }
