@@ -1,25 +1,11 @@
 <resources>
     <string name="app_name">Geometry Math</string>
     <string name="team">By team 2</string>
-    <string name="selector_menu">Seleccione el calculo</string>
+    <string name="selector_menu">Seleccione el cálculo</string>
 
-    <string-array name="actividades">
-        <item>Área Círculo</item>
-        <item>Perímetro Círculo</item>
-        <item>Área Cuadro</item>
-        <item>Perímetro Cuadro</item>
-        <item>Área Triángulo</item>
-        <item>Perímetro Triángulo</item>
-        <item>Área Rectángulo</item>
-        <item>Perímetro Rectángulo</item>
-        <item>Área de un Pentágono</item>
-        <item>Perímetro de un Pentágono</item>
-        <item>Área de un Hexágono</item>
-        <item>Perímetro de un Hexágono</item>
-    </string-array>
-
-    <string name="daniel_perimetrotriangulo">Perimetro del triangulo</string>
-    <string name="perimetroDaniel">\"El perímetro del triángulo es: \"</string>
+    <string name="daniel_perimetrotriangulo">Perímetro del triángulo</string>
+    <string name="perimetroDaniel">\El perímetro del triángulo es: \</string>
+    <string name="mensaje_area_cuadro">\El área del cuadro es:  \</string>
     <string name="AreaTriangulo">Área del Triángulo</string>
     <string name="baseTriangulo">Base</string>
     <string name="alturaTriangulo">Altura</string>
@@ -36,6 +22,8 @@
     <string name="activity_perimetro_hexagono_edt_hint_lado6">Lado6</string>
     <string name="activity_perimetro_hexagono_button_calcular">Calcular</string>
     <string name="activity_perimetro_hexagono_btn_home">home</string>
+    <string name="lado_cuado">Valor del lado del cuadro</string>
+
 
 
     <string name="pPentagono_sizeA">Lado A</string>
@@ -50,10 +38,10 @@
     <string name="pPentagono_error_sideC_empty">El lado C está vacio</string>
     <string name="pPentagono_error_sideD_empty">El lado D está vacio</string>
     <string name="pPentagono_error_sideE_empty">El lado E está vacio</string>
+    <string name="Pentagono_sizeA">Lado A</string>
 
 
     //Para area de pentagono
-    <string name="Pentagono_sizeA">Lado A</string>
     <string name="Pentagono_sizeB">Lado B</string>
     <string name="Pentagono_sizeC">Lado C</string>
     <string name="Pentagono_sizeD">Lado D</string>
@@ -61,11 +49,27 @@
     <string name="Pentagono_apothem">Apotema L</string>
     <string name="Calculate_area">Calcular área</string>
     <string name="Pentagono_resultInfo">RESULTADO</string>
+    <string name="lado_A">Lado A</string>
 
 
     //Perimetro del rectangulo
-    <string name="lado_A">Lado A</string>
     <string name="lado_B">Lado B</string>
-    <string name="res_per_rec">\"El perímetro del triángulo es: \"</string>
+    <string name="res_per_rec">\El perímetro del rectángulo es: \</string>
     <string name="perimetro_rectangulo">Perímetro de un Rectángulo</string>
+    <string name="area_cuadro">Área de un Cuadro</string>
+
+    <string-array name="actividades">
+        <item>Área Círculo</item>
+        <item>Perímetro Círculo</item>
+        <item>Área Cuadro</item>
+        <item>Perímetro Cuadro</item>
+        <item>Área Triángulo</item>
+        <item>Perímetro Triángulo</item>
+        <item>Área Rectángulo</item>
+        <item>Perímetro Rectángulo</item>
+        <item>Área de un Pentágono</item>
+        <item>Perímetro de un Pentágono</item>
+        <item>Área de un Hexágono</item>
+        <item>Perímetro de un Hexágono</item>
+    </string-array>
 </resources>
